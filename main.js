@@ -106,7 +106,7 @@ function fetchBookmarks() {
     	bookmarkList.innerHTML += 
                                   '<tr>'+
                                   '<td><span style="font-size:15px;text-transform:capitalize;">'+name+'</span></td>'+
-                                  '<td><a class ="btn btn-primary btn-sm"  target="_blank" href="'+url+'">Visit Site</a></td>'+
+                                  '<td><a class ="btn btn-primary btn-sm"  target="_blank" href="'url'">Visit Site</a></td>'+
                                   '<td><a onclick="deleteBookmark(\''+url+'\')" class ="btn btn-danger btn-sm" href="#">Delete</a></td>'+
                                   '</tr>'
 
